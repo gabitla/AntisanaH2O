@@ -1,0 +1,56 @@
+# Entorno virtual de Python
+venv/
+ENV/
+env/
+.venv/
+
+# Archivos de configuración locales
+*.env
+*.env.*
+
+# Archivos Python compilados
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Logs y bases temporales
+*.log
+*.sqlite3
+
+# Archivos de usuario/editor
+.DS_Store
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Archivos de cache de pip
+pip-wheel-metadata/
+*.egg-info/
+dist/
+build/
+
+# Archivos subidos por usuarios
+uploads/
+*.csv
+
+# Archivos de test temporales
+test_output/
+tmp/
+temp/
+
+# Ignorar los notebooks (si no usas Jupyter)
+*.ipynb
+
+# Coverage
+htmlcov/
+.coverage
+coverage.xml
+.cache
+
+# Node modules (si llegas a usar npm para Leaflet u otro)
+node_modules/
+
+# Archivos generados por OS
+Thumbs.db
+ehthumbs.db
